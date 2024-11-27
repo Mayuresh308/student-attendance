@@ -77,7 +77,7 @@ const LoginPage = ({ role }) => {
         const password = "zxc"
 
         if (role === "Admin") {
-            const email = "yogendra@12"
+            const email = "mayuresh@30"
             const fields = { email, password }
             setGuestLoader(true)
             dispatch(loginUser(fields, role))
